@@ -2,16 +2,27 @@ This web app allows users to scrape stock data from Screener.in and perform intr
 
 **Features**:
 **Stock Data Scraper**: Scrapes real-time stock data such as Stock P/E, Market Cap, FY23 Net Profit, and RoCE.
+
 **Intrinsic PE Calculation**: Uses user inputs such as cost of capital, RoCE, growth rate, high growth period, fade period, and terminal growth rate to calculate intrinsic PE.
+
 **Degree of Overvaluation**: Computes the degree of overvaluation based on either the current PE or FY23 PE.
+
 **5-Year Median Pre-tax RoCE**: Calculates the 5-year median pre-tax RoCE from historical data.
+
 **Dynamic Calculations**: The user can adjust financial factors, and the data updates dynamically without requiring a symbol reload.
+
 **User Inputs**:
+
 **Cost of Capital (%)**: The cost of capital used in the DCF model.
+
 **RoCE (%)**: Return on Capital Employed.
+
 **Growth During High Growth Period ($)**: Growth in absolute terms during the high growth period.
+
 **High Growth Period (Years)**: Duration of the high growth period.
+
 **Fade Period (Years)**: Duration of the fade period.
+
 **Terminal Growth Rate (%)**: The terminal growth rate after the fade period.
 
 **How It Works:**
